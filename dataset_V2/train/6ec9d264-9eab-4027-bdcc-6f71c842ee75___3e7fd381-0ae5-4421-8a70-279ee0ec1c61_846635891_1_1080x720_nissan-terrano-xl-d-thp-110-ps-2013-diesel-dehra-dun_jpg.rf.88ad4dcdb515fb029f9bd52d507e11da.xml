@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>6ec9d264-9eab-4027-bdcc-6f71c842ee75___3e7fd381-0ae5-4421-8a70-279ee0ec1c61_846635891_1_1080x720_nissan-terrano-xl-d-thp-110-ps-2013-diesel-dehra-dun_jpg.rf.88ad4dcdb515fb029f9bd52d507e11da.jpg</filename>
+	<path>6ec9d264-9eab-4027-bdcc-6f71c842ee75___3e7fd381-0ae5-4421-8a70-279ee0ec1c61_846635891_1_1080x720_nissan-terrano-xl-d-thp-110-ps-2013-diesel-dehra-dun_jpg.rf.88ad4dcdb515fb029f9bd52d507e11da.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>122</xmin>
+			<xmax>408</xmax>
+			<ymin>402</ymin>
+			<ymax>492</ymax>
+		</bndbox>
+	</object>
+</annotation>

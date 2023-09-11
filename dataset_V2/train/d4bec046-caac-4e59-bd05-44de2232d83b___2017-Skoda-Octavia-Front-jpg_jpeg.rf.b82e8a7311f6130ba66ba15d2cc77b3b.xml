@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>d4bec046-caac-4e59-bd05-44de2232d83b___2017-Skoda-Octavia-Front-jpg_jpeg.rf.b82e8a7311f6130ba66ba15d2cc77b3b.jpg</filename>
+	<path>d4bec046-caac-4e59-bd05-44de2232d83b___2017-Skoda-Octavia-Front-jpg_jpeg.rf.b82e8a7311f6130ba66ba15d2cc77b3b.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>360</xmin>
+			<xmax>582</xmax>
+			<ymin>336</ymin>
+			<ymax>443</ymax>
+		</bndbox>
+	</object>
+</annotation>

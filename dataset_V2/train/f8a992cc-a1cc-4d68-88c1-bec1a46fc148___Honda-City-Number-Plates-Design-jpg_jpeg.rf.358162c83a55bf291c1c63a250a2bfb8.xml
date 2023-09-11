@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>f8a992cc-a1cc-4d68-88c1-bec1a46fc148___Honda-City-Number-Plates-Design-jpg_jpeg.rf.358162c83a55bf291c1c63a250a2bfb8.jpg</filename>
+	<path>f8a992cc-a1cc-4d68-88c1-bec1a46fc148___Honda-City-Number-Plates-Design-jpg_jpeg.rf.358162c83a55bf291c1c63a250a2bfb8.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>208</xmin>
+			<xmax>446</xmax>
+			<ymin>440</ymin>
+			<ymax>511</ymax>
+		</bndbox>
+	</object>
+</annotation>

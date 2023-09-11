@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>SK6_jpg.rf.97a444e5bf9dab586a27760830f35f31.jpg</filename>
+	<path>SK6_jpg.rf.97a444e5bf9dab586a27760830f35f31.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>232</xmin>
+			<xmax>422</xmax>
+			<ymin>344</ymin>
+			<ymax>383</ymax>
+		</bndbox>
+	</object>
+</annotation>

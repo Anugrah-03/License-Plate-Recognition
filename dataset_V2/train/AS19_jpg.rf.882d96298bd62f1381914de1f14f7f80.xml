@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>AS19_jpg.rf.882d96298bd62f1381914de1f14f7f80.jpg</filename>
+	<path>AS19_jpg.rf.882d96298bd62f1381914de1f14f7f80.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>214</xmin>
+			<xmax>415</xmax>
+			<ymin>424</ymin>
+			<ymax>489</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>KA1_jpg.rf.ea4b121e6a10700184b362d7fbe458ee.jpg</filename>
+	<path>KA1_jpg.rf.ea4b121e6a10700184b362d7fbe458ee.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>234</xmin>
+			<xmax>392</xmax>
+			<ymin>410</ymin>
+			<ymax>457</ymax>
+		</bndbox>
+	</object>
+</annotation>

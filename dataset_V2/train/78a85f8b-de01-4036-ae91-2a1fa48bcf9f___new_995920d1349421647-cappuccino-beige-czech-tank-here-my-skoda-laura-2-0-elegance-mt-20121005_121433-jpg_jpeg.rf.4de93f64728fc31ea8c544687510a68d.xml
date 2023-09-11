@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>78a85f8b-de01-4036-ae91-2a1fa48bcf9f___new_995920d1349421647-cappuccino-beige-czech-tank-here-my-skoda-laura-2-0-elegance-mt-20121005_121433-jpg_jpeg.rf.4de93f64728fc31ea8c544687510a68d.jpg</filename>
+	<path>78a85f8b-de01-4036-ae91-2a1fa48bcf9f___new_995920d1349421647-cappuccino-beige-czech-tank-here-my-skoda-laura-2-0-elegance-mt-20121005_121433-jpg_jpeg.rf.4de93f64728fc31ea8c544687510a68d.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>143</xmin>
+			<xmax>413</xmax>
+			<ymin>465</ymin>
+			<ymax>563</ymax>
+		</bndbox>
+	</object>
+</annotation>

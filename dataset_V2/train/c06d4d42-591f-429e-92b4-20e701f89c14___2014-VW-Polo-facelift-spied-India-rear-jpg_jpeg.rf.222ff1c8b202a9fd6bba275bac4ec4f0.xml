@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>c06d4d42-591f-429e-92b4-20e701f89c14___2014-VW-Polo-facelift-spied-India-rear-jpg_jpeg.rf.222ff1c8b202a9fd6bba275bac4ec4f0.jpg</filename>
+	<path>c06d4d42-591f-429e-92b4-20e701f89c14___2014-VW-Polo-facelift-spied-India-rear-jpg_jpeg.rf.222ff1c8b202a9fd6bba275bac4ec4f0.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>279</xmin>
+			<xmax>429</xmax>
+			<ymin>366</ymin>
+			<ymax>411</ymax>
+		</bndbox>
+	</object>
+</annotation>

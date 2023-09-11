@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>ed9cd3b2-76a2-4cc8-9e4e-76d50ad1ff68___maruti-suzuki-wagon-r-hood-open-view-jpg_jpeg.rf.661414afbc50c11eac474b82c69dbb4c.jpg</filename>
+	<path>ed9cd3b2-76a2-4cc8-9e4e-76d50ad1ff68___maruti-suzuki-wagon-r-hood-open-view-jpg_jpeg.rf.661414afbc50c11eac474b82c69dbb4c.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>209</xmin>
+			<xmax>405</xmax>
+			<ymin>346</ymin>
+			<ymax>414</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>DL38_jpg.rf.35fe755382b1ff82ab2d532d77e37361.jpg</filename>
+	<path>DL38_jpg.rf.35fe755382b1ff82ab2d532d77e37361.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>240</xmin>
+			<xmax>397</xmax>
+			<ymin>454</ymin>
+			<ymax>505</ymax>
+		</bndbox>
+	</object>
+</annotation>

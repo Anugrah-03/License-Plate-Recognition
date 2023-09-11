@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>e706cec0-783a-42bc-b934-64788481cd92___4-Innova-After-2-jpg_jpeg.rf.e0d8113ab001a7ea6c2bcb1a63b21ac2.jpg</filename>
+	<path>e706cec0-783a-42bc-b934-64788481cd92___4-Innova-After-2-jpg_jpeg.rf.e0d8113ab001a7ea6c2bcb1a63b21ac2.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>221</xmin>
+			<xmax>417</xmax>
+			<ymin>292</ymin>
+			<ymax>378</ymax>
+		</bndbox>
+	</object>
+</annotation>

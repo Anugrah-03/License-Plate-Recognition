@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>KL16_jpg.rf.8bf9d7ebeb1ad7c8b4b8e13f4647df11.jpg</filename>
+	<path>KL16_jpg.rf.8bf9d7ebeb1ad7c8b4b8e13f4647df11.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>216</xmin>
+			<xmax>418</xmax>
+			<ymin>388</ymin>
+			<ymax>434</ymax>
+		</bndbox>
+	</object>
+</annotation>

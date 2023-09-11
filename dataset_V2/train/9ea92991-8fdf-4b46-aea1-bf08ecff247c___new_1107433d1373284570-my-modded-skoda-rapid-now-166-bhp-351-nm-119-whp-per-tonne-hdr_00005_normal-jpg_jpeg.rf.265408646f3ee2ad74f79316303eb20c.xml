@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>9ea92991-8fdf-4b46-aea1-bf08ecff247c___new_1107433d1373284570-my-modded-skoda-rapid-now-166-bhp-351-nm-119-whp-per-tonne-hdr_00005_normal-jpg_jpeg.rf.265408646f3ee2ad74f79316303eb20c.jpg</filename>
+	<path>9ea92991-8fdf-4b46-aea1-bf08ecff247c___new_1107433d1373284570-my-modded-skoda-rapid-now-166-bhp-351-nm-119-whp-per-tonne-hdr_00005_normal-jpg_jpeg.rf.265408646f3ee2ad74f79316303eb20c.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>89</xmin>
+			<xmax>354</xmax>
+			<ymin>379</ymin>
+			<ymax>480</ymax>
+		</bndbox>
+	</object>
+</annotation>

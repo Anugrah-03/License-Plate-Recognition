@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>7073bd18-c0bf-47da-9e43-8c9d27831f11___new_Skoda-Laura-rear-jpg_jpeg.rf.8788676c48d994677965c293677e54df.jpg</filename>
+	<path>7073bd18-c0bf-47da-9e43-8c9d27831f11___new_Skoda-Laura-rear-jpg_jpeg.rf.8788676c48d994677965c293677e54df.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>248</xmin>
+			<xmax>386</xmax>
+			<ymin>296</ymin>
+			<ymax>369</ymax>
+		</bndbox>
+	</object>
+</annotation>

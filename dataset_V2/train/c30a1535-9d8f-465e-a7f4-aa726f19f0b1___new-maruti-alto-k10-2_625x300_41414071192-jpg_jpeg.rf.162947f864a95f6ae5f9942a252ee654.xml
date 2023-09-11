@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>c30a1535-9d8f-465e-a7f4-aa726f19f0b1___new-maruti-alto-k10-2_625x300_41414071192-jpg_jpeg.rf.162947f864a95f6ae5f9942a252ee654.jpg</filename>
+	<path>c30a1535-9d8f-465e-a7f4-aa726f19f0b1___new-maruti-alto-k10-2_625x300_41414071192-jpg_jpeg.rf.162947f864a95f6ae5f9942a252ee654.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>224</xmin>
+			<xmax>414</xmax>
+			<ymin>519</ymin>
+			<ymax>587</ymax>
+		</bndbox>
+	</object>
+</annotation>

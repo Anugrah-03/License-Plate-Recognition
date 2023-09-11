@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>07bd977e-d578-49a2-b345-7cee5a4db6bf___new_1031520d1356604430-skoda-rapid-joins-family-edit-sold-wp_000281-jpg_jpeg.rf.155922da47f06850acbeeebc0b8751c4.jpg</filename>
+	<path>07bd977e-d578-49a2-b345-7cee5a4db6bf___new_1031520d1356604430-skoda-rapid-joins-family-edit-sold-wp_000281-jpg_jpeg.rf.155922da47f06850acbeeebc0b8751c4.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>202</xmin>
+			<xmax>467</xmax>
+			<ymin>364</ymin>
+			<ymax>453</ymax>
+		</bndbox>
+	</object>
+</annotation>

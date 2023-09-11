@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>e750b959-1b5a-41bf-bf64-d8099089e909___3e7fd381-0ae5-4421-8a70-279ee0ec1c61_Nissan-Terrano-Duster-launch-dare-pics-price-interiors-images-1_jpg.rf.6726231cb8507cea2ae707711b75c55e.jpg</filename>
+	<path>e750b959-1b5a-41bf-bf64-d8099089e909___3e7fd381-0ae5-4421-8a70-279ee0ec1c61_Nissan-Terrano-Duster-launch-dare-pics-price-interiors-images-1_jpg.rf.6726231cb8507cea2ae707711b75c55e.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>165</xmin>
+			<xmax>346</xmax>
+			<ymin>307</ymin>
+			<ymax>389</ymax>
+		</bndbox>
+	</object>
+</annotation>

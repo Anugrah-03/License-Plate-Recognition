@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>UK10_jpg.rf.f6584d1c8f5dce3ecddee69dd09b6bb6.jpg</filename>
+	<path>UK10_jpg.rf.f6584d1c8f5dce3ecddee69dd09b6bb6.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>144</xmin>
+			<xmax>379</xmax>
+			<ymin>484</ymin>
+			<ymax>539</ymax>
+		</bndbox>
+	</object>
+</annotation>

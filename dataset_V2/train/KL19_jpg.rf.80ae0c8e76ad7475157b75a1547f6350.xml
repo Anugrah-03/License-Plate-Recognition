@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>KL19_jpg.rf.80ae0c8e76ad7475157b75a1547f6350.jpg</filename>
+	<path>KL19_jpg.rf.80ae0c8e76ad7475157b75a1547f6350.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>223</xmin>
+			<xmax>357</xmax>
+			<ymin>365</ymin>
+			<ymax>427</ymax>
+		</bndbox>
+	</object>
+</annotation>

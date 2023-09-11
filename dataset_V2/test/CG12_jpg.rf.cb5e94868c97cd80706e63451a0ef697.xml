@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>CG12_jpg.rf.cb5e94868c97cd80706e63451a0ef697.jpg</filename>
+	<path>CG12_jpg.rf.cb5e94868c97cd80706e63451a0ef697.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>196</xmin>
+			<xmax>422</xmax>
+			<ymin>458</ymin>
+			<ymax>495</ymax>
+		</bndbox>
+	</object>
+</annotation>

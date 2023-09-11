@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>car-wbs-KL60N5344_00000_jpeg.rf.b3eb3dbe8d79f585d1897bfdf776ac17.jpg</filename>
+	<path>car-wbs-KL60N5344_00000_jpeg.rf.b3eb3dbe8d79f585d1897bfdf776ac17.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1</xmin>
+			<xmax>228</xmax>
+			<ymin>310</ymin>
+			<ymax>409</ymax>
+		</bndbox>
+	</object>
+</annotation>

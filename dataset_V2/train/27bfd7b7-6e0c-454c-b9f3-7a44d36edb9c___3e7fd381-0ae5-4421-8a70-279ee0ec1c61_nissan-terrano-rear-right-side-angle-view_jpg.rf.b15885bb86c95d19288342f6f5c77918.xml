@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>27bfd7b7-6e0c-454c-b9f3-7a44d36edb9c___3e7fd381-0ae5-4421-8a70-279ee0ec1c61_nissan-terrano-rear-right-side-angle-view_jpg.rf.b15885bb86c95d19288342f6f5c77918.jpg</filename>
+	<path>27bfd7b7-6e0c-454c-b9f3-7a44d36edb9c___3e7fd381-0ae5-4421-8a70-279ee0ec1c61_nissan-terrano-rear-right-side-angle-view_jpg.rf.b15885bb86c95d19288342f6f5c77918.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>85</xmin>
+			<xmax>227</xmax>
+			<ymin>427</ymin>
+			<ymax>528</ymax>
+		</bndbox>
+	</object>
+</annotation>

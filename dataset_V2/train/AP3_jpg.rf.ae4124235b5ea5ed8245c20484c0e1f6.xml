@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>AP3_jpg.rf.ae4124235b5ea5ed8245c20484c0e1f6.jpg</filename>
+	<path>AP3_jpg.rf.ae4124235b5ea5ed8245c20484c0e1f6.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>427</xmin>
+			<xmax>628</xmax>
+			<ymin>455</ymin>
+			<ymax>575</ymax>
+		</bndbox>
+	</object>
+</annotation>

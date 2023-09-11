@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>HP18_jpg.rf.2f1c6eab52804e8ace1b1cdac2950672.jpg</filename>
+	<path>HP18_jpg.rf.2f1c6eab52804e8ace1b1cdac2950672.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>319</xmin>
+			<xmax>430</xmax>
+			<ymin>486</ymin>
+			<ymax>508</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>HP14_jpg.rf.648a4ae03f9feedaa48a23c26ed6512e.jpg</filename>
+	<path>HP14_jpg.rf.648a4ae03f9feedaa48a23c26ed6512e.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>215</xmin>
+			<xmax>459</xmax>
+			<ymin>444</ymin>
+			<ymax>488</ymax>
+		</bndbox>
+	</object>
+</annotation>

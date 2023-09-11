@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>00b42b2c-f193-4863-b92c-0245cbc816da___3e7fd381-0ae5-4421-8a70-279ee0ec1c61_Nissan-Terrano-Petrol-Review-Images-Black-Front-Angle_jpg.rf.dd517e4ff33a0492816bcca5af495b0b.jpg</filename>
+	<path>00b42b2c-f193-4863-b92c-0245cbc816da___3e7fd381-0ae5-4421-8a70-279ee0ec1c61_Nissan-Terrano-Petrol-Review-Images-Black-Front-Angle_jpg.rf.dd517e4ff33a0492816bcca5af495b0b.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>43</xmin>
+			<xmax>110</xmax>
+			<ymin>385</ymin>
+			<ymax>455</ymax>
+		</bndbox>
+	</object>
+</annotation>

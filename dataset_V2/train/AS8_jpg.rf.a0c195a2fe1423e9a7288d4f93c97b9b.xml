@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>AS8_jpg.rf.a0c195a2fe1423e9a7288d4f93c97b9b.jpg</filename>
+	<path>AS8_jpg.rf.a0c195a2fe1423e9a7288d4f93c97b9b.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>207</xmin>
+			<xmax>375</xmax>
+			<ymin>408</ymin>
+			<ymax>457</ymax>
+		</bndbox>
+	</object>
+</annotation>

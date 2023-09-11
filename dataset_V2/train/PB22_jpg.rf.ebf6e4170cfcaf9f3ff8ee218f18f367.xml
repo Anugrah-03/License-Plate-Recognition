@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>PB22_jpg.rf.ebf6e4170cfcaf9f3ff8ee218f18f367.jpg</filename>
+	<path>PB22_jpg.rf.ebf6e4170cfcaf9f3ff8ee218f18f367.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>241</xmin>
+			<xmax>457</xmax>
+			<ymin>462</ymin>
+			<ymax>535</ymax>
+		</bndbox>
+	</object>
+</annotation>

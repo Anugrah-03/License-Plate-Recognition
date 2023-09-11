@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>319f51dc-9db2-4977-a43d-09561cdd54ab___1415806d1442489743t-raging-red-rover-r3-my-mahindra-scorpio-s10-4x4-nudge-guard-jpg_jpeg.rf.ae9688770f61103eff2e4a01a783109c.jpg</filename>
+	<path>319f51dc-9db2-4977-a43d-09561cdd54ab___1415806d1442489743t-raging-red-rover-r3-my-mahindra-scorpio-s10-4x4-nudge-guard-jpg_jpeg.rf.ae9688770f61103eff2e4a01a783109c.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>156</xmin>
+			<xmax>364</xmax>
+			<ymin>1</ymin>
+			<ymax>42</ymax>
+		</bndbox>
+	</object>
+</annotation>

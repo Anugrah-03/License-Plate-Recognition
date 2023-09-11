@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>car-wbs-UP32FH2653_00000_jpg.rf.0d5dc7d088d2c362adc24e101e6480c7.jpg</filename>
+	<path>car-wbs-UP32FH2653_00000_jpg.rf.0d5dc7d088d2c362adc24e101e6480c7.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>369</xmin>
+			<xmax>540</xmax>
+			<ymin>485</ymin>
+			<ymax>574</ymax>
+		</bndbox>
+	</object>
+</annotation>

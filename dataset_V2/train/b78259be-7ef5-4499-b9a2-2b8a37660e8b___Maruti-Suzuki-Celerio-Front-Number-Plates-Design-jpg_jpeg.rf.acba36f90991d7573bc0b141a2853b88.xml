@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>b78259be-7ef5-4499-b9a2-2b8a37660e8b___Maruti-Suzuki-Celerio-Front-Number-Plates-Design-jpg_jpeg.rf.acba36f90991d7573bc0b141a2853b88.jpg</filename>
+	<path>b78259be-7ef5-4499-b9a2-2b8a37660e8b___Maruti-Suzuki-Celerio-Front-Number-Plates-Design-jpg_jpeg.rf.acba36f90991d7573bc0b141a2853b88.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>216</xmin>
+			<xmax>488</xmax>
+			<ymin>239</ymin>
+			<ymax>359</ymax>
+		</bndbox>
+	</object>
+</annotation>

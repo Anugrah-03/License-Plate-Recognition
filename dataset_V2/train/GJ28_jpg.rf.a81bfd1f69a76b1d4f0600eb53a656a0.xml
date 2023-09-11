@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>GJ28_jpg.rf.a81bfd1f69a76b1d4f0600eb53a656a0.jpg</filename>
+	<path>GJ28_jpg.rf.a81bfd1f69a76b1d4f0600eb53a656a0.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>258</xmin>
+			<xmax>418</xmax>
+			<ymin>418</ymin>
+			<ymax>521</ymax>
+		</bndbox>
+	</object>
+</annotation>

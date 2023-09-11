@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>3c0a3772-d18d-4ff7-861c-7e50b7974edb___1393874-take-look-number-plate-imageuploadedbyteambhp1437414250-447892-jpg_jpeg.rf.5edefa423be07cefffa05483e477db77.jpg</filename>
+	<path>3c0a3772-d18d-4ff7-861c-7e50b7974edb___1393874-take-look-number-plate-imageuploadedbyteambhp1437414250-447892-jpg_jpeg.rf.5edefa423be07cefffa05483e477db77.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>207</xmin>
+			<xmax>474</xmax>
+			<ymin>316</ymin>
+			<ymax>437</ymax>
+		</bndbox>
+	</object>
+</annotation>

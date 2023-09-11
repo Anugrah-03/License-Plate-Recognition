@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>e54fb93b-020f-4c55-b4db-86e17ba9b9e0___2014-VW-Polo-facelift-rear-spotted-testing-in-Pune-India-jpg_jpeg.rf.a75702cb86e06e1921bc86a82ebd9780.jpg</filename>
+	<path>e54fb93b-020f-4c55-b4db-86e17ba9b9e0___2014-VW-Polo-facelift-rear-spotted-testing-in-Pune-India-jpg_jpeg.rf.a75702cb86e06e1921bc86a82ebd9780.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>253</xmin>
+			<xmax>382</xmax>
+			<ymin>362</ymin>
+			<ymax>414</ymax>
+		</bndbox>
+	</object>
+</annotation>

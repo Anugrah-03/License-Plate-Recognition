@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>MH12_jpg.rf.9f89d83b6bfd0303b4c42f3581803450.jpg</filename>
+	<path>MH12_jpg.rf.9f89d83b6bfd0303b4c42f3581803450.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>201</xmin>
+			<xmax>449</xmax>
+			<ymin>539</ymin>
+			<ymax>578</ymax>
+		</bndbox>
+	</object>
+</annotation>
