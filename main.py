@@ -2,9 +2,9 @@ import cv2
 from ultralytics import YOLO
 import os
 
-model = YOLO('/home/gayathry/Desktop/work/num_plate/best.pt')
+model = YOLO('best.pt')
 
-video_path = '/home/gayathry/Desktop/work/num_plate/sample_cut.mp4'
+video_path = 'sample_cut.mp4'
 cap = cv2.VideoCapture(video_path)
 
 cv2.namedWindow('Video', cv2.WINDOW_NORMAL)
