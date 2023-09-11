@@ -1,9 +1,10 @@
 import cv2
 from ultralytics import YOLO
+import os
 
 model = YOLO('/home/gayathry/Desktop/work/num_plate/best.pt')
 
-video_path = '/home/gayathry/Desktop/work/num_plate/sample.mp4'
+video_path = '/home/gayathry/Desktop/work/num_plate/sample_cut.mp4'
 cap = cv2.VideoCapture(video_path)
 
 cv2.namedWindow('Video', cv2.WINDOW_NORMAL)
@@ -23,7 +24,8 @@ while cap.isOpened():
     font_thickness = 2
     color = (0, 255, 0)  
 
-    for detection in results:
+
+    for i, detection in enumerate(results):
         boxes_data = detection.boxes.data
         for box in boxes_data:
             x1, y1, x2, y2, confidence, _ = map(int, box)
@@ -36,6 +38,15 @@ while cap.isOpened():
             text_y = y1 - 5  
             #cv2.rectangle(frame, (text_x, text_y - text_size[1]), (text_x + text_size[0], text_y), color, -1)  
             #cv2.putText(frame, text, (text_x, text_y), font, font_scale, (0, 0, 0), font_thickness, lineType=cv2.LINE_AA) 
+
+            print(os.getcwd())
+
+            if not os.path.exists("detected_boxes"):
+                os.makedirs("detected_boxes")
+
+            cropped_img = frame[y1:y2, x1:x2]  # Crop using the bounding box coordinates
+            save_path = os.path.join("detected_boxes", f"box_{i}.jpg")
+            cv2.imwrite(save_path, cropped_img)
 
     cv2.imshow('Video', frame)
     
