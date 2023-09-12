@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>JH19_jpg.rf.4190181f26c2b8da8728d1de9bdcae42.jpg</filename>
+	<path>JH19_jpg.rf.4190181f26c2b8da8728d1de9bdcae42.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>262</xmin>
+			<xmax>482</xmax>
+			<ymin>375</ymin>
+			<ymax>487</ymax>
+		</bndbox>
+	</object>
+</annotation>

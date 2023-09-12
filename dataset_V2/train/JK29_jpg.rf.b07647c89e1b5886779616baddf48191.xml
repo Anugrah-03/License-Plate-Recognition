@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>JK29_jpg.rf.b07647c89e1b5886779616baddf48191.jpg</filename>
+	<path>JK29_jpg.rf.b07647c89e1b5886779616baddf48191.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>125</xmin>
+			<xmax>393</xmax>
+			<ymin>297</ymin>
+			<ymax>364</ymax>
+		</bndbox>
+	</object>
+</annotation>

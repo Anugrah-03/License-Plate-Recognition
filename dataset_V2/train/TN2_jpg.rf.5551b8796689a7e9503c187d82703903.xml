@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>TN2_jpg.rf.5551b8796689a7e9503c187d82703903.jpg</filename>
+	<path>TN2_jpg.rf.5551b8796689a7e9503c187d82703903.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>247</xmin>
+			<xmax>417</xmax>
+			<ymin>368</ymin>
+			<ymax>410</ymax>
+		</bndbox>
+	</object>
+</annotation>

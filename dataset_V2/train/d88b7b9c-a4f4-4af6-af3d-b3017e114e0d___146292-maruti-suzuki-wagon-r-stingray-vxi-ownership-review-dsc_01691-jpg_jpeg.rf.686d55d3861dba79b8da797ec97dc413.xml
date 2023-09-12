@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>d88b7b9c-a4f4-4af6-af3d-b3017e114e0d___146292-maruti-suzuki-wagon-r-stingray-vxi-ownership-review-dsc_01691-jpg_jpeg.rf.686d55d3861dba79b8da797ec97dc413.jpg</filename>
+	<path>d88b7b9c-a4f4-4af6-af3d-b3017e114e0d___146292-maruti-suzuki-wagon-r-stingray-vxi-ownership-review-dsc_01691-jpg_jpeg.rf.686d55d3861dba79b8da797ec97dc413.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>172</xmin>
+			<xmax>441</xmax>
+			<ymin>364</ymin>
+			<ymax>480</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>AP17_jpg.rf.48df4b5dd9f80c493cb0396f0a273008.jpg</filename>
+	<path>AP17_jpg.rf.48df4b5dd9f80c493cb0396f0a273008.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>243</xmin>
+			<xmax>426</xmax>
+			<ymin>367</ymin>
+			<ymax>397</ymax>
+		</bndbox>
+	</object>
+</annotation>

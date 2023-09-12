@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>6e772b68-a549-44e5-950e-4c376454c4e9___1557295d1474517501-toyota-innova-crysta-official-review-20160921_173216-jpg_jpeg.rf.2a56dde05828a043940f20805fb1f658.jpg</filename>
+	<path>6e772b68-a549-44e5-950e-4c376454c4e9___1557295d1474517501-toyota-innova-crysta-official-review-20160921_173216-jpg_jpeg.rf.2a56dde05828a043940f20805fb1f658.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>199</xmin>
+			<xmax>471</xmax>
+			<ymin>309</ymin>
+			<ymax>398</ymax>
+		</bndbox>
+	</object>
+</annotation>

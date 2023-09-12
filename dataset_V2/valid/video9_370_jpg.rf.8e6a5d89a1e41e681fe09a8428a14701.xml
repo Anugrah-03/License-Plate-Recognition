@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>video9_370_jpg.rf.8e6a5d89a1e41e681fe09a8428a14701.jpg</filename>
+	<path>video9_370_jpg.rf.8e6a5d89a1e41e681fe09a8428a14701.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>498</xmin>
+			<xmax>583</xmax>
+			<ymin>380</ymin>
+			<ymax>424</ymax>
+		</bndbox>
+	</object>
+</annotation>

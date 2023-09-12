@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>JH8_jpg.rf.04f3b2113c90a06e42b0c4ef0eaa1ae8.jpg</filename>
+	<path>JH8_jpg.rf.04f3b2113c90a06e42b0c4ef0eaa1ae8.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>221</xmin>
+			<xmax>398</xmax>
+			<ymin>347</ymin>
+			<ymax>379</ymax>
+		</bndbox>
+	</object>
+</annotation>

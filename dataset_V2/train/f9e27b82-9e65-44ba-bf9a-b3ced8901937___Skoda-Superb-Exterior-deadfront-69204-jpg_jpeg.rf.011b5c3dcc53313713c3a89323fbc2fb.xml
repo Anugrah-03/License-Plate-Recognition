@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>f9e27b82-9e65-44ba-bf9a-b3ced8901937___Skoda-Superb-Exterior-deadfront-69204-jpg_jpeg.rf.011b5c3dcc53313713c3a89323fbc2fb.jpg</filename>
+	<path>f9e27b82-9e65-44ba-bf9a-b3ced8901937___Skoda-Superb-Exterior-deadfront-69204-jpg_jpeg.rf.011b5c3dcc53313713c3a89323fbc2fb.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>220</xmin>
+			<xmax>439</xmax>
+			<ymin>331</ymin>
+			<ymax>434</ymax>
+		</bndbox>
+	</object>
+</annotation>

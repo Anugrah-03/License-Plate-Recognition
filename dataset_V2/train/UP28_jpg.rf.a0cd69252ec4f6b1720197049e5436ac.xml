@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>UP28_jpg.rf.a0cd69252ec4f6b1720197049e5436ac.jpg</filename>
+	<path>UP28_jpg.rf.a0cd69252ec4f6b1720197049e5436ac.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>193</xmin>
+			<xmax>408</xmax>
+			<ymin>438</ymin>
+			<ymax>504</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>3fd93f90-f778-4f14-8b0f-67dd0be88a06___561644d1308248087-beware-fake-registration-numbers-imported-cars-proof-pg-3-257491_10150223034216705_685851704_7325894_6-Copy_jpeg.rf.41c9f367fc12d3fa7ad9159e41487fe7.jpg</filename>
+	<path>3fd93f90-f778-4f14-8b0f-67dd0be88a06___561644d1308248087-beware-fake-registration-numbers-imported-cars-proof-pg-3-257491_10150223034216705_685851704_7325894_6-Copy_jpeg.rf.41c9f367fc12d3fa7ad9159e41487fe7.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>198</xmin>
+			<xmax>407</xmax>
+			<ymin>348</ymin>
+			<ymax>405</ymax>
+		</bndbox>
+	</object>
+</annotation>

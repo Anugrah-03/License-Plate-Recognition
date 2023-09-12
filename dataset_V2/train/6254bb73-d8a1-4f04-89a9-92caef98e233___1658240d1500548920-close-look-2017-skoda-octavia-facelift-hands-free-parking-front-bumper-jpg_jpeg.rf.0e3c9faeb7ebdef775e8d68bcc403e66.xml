@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>6254bb73-d8a1-4f04-89a9-92caef98e233___1658240d1500548920-close-look-2017-skoda-octavia-facelift-hands-free-parking-front-bumper-jpg_jpeg.rf.0e3c9faeb7ebdef775e8d68bcc403e66.jpg</filename>
+	<path>6254bb73-d8a1-4f04-89a9-92caef98e233___1658240d1500548920-close-look-2017-skoda-octavia-facelift-hands-free-parking-front-bumper-jpg_jpeg.rf.0e3c9faeb7ebdef775e8d68bcc403e66.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>194</xmin>
+			<xmax>440</xmax>
+			<ymin>228</ymin>
+			<ymax>346</ymax>
+		</bndbox>
+	</object>
+</annotation>

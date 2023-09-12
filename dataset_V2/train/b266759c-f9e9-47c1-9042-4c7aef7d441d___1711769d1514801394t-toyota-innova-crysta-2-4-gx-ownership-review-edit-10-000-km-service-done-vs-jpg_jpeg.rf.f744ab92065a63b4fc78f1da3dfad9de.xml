@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>b266759c-f9e9-47c1-9042-4c7aef7d441d___1711769d1514801394t-toyota-innova-crysta-2-4-gx-ownership-review-edit-10-000-km-service-done-vs-jpg_jpeg.rf.f744ab92065a63b4fc78f1da3dfad9de.jpg</filename>
+	<path>b266759c-f9e9-47c1-9042-4c7aef7d441d___1711769d1514801394t-toyota-innova-crysta-2-4-gx-ownership-review-edit-10-000-km-service-done-vs-jpg_jpeg.rf.f744ab92065a63b4fc78f1da3dfad9de.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>267</xmin>
+			<xmax>404</xmax>
+			<ymin>307</ymin>
+			<ymax>409</ymax>
+		</bndbox>
+	</object>
+</annotation>

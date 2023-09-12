@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>10c96324-3452-43e2-aa68-c8ae7d3c1b6e___844874771_1_1080x720_maruti-suzuki-wagon-r-vxi-bs-iii-2014-petrol-jpg_jpeg.rf.70ba7084c3d70ee5f89ba5b9eb5ab8f6.jpg</filename>
+	<path>10c96324-3452-43e2-aa68-c8ae7d3c1b6e___844874771_1_1080x720_maruti-suzuki-wagon-r-vxi-bs-iii-2014-petrol-jpg_jpeg.rf.70ba7084c3d70ee5f89ba5b9eb5ab8f6.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>188</xmin>
+			<xmax>477</xmax>
+			<ymin>337</ymin>
+			<ymax>443</ymax>
+		</bndbox>
+	</object>
+</annotation>

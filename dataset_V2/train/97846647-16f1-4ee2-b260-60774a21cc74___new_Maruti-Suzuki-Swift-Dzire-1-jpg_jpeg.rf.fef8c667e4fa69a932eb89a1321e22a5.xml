@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>97846647-16f1-4ee2-b260-60774a21cc74___new_Maruti-Suzuki-Swift-Dzire-1-jpg_jpeg.rf.fef8c667e4fa69a932eb89a1321e22a5.jpg</filename>
+	<path>97846647-16f1-4ee2-b260-60774a21cc74___new_Maruti-Suzuki-Swift-Dzire-1-jpg_jpeg.rf.fef8c667e4fa69a932eb89a1321e22a5.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>202</xmin>
+			<xmax>499</xmax>
+			<ymin>339</ymin>
+			<ymax>459</ymax>
+		</bndbox>
+	</object>
+</annotation>

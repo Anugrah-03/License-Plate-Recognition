@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>72894c2b-5999-4d87-baa4-e3507548e011___3e7fd381-0ae5-4421-8a70-279ee0ec1c61_847602356_1_1080x720_nissan-terrano-xl-d-2014-diesel-bilaspur_jpg.rf.eb1146cd3b1a10c1af1a9b6a67d301ee.jpg</filename>
+	<path>72894c2b-5999-4d87-baa4-e3507548e011___3e7fd381-0ae5-4421-8a70-279ee0ec1c61_847602356_1_1080x720_nissan-terrano-xl-d-2014-diesel-bilaspur_jpg.rf.eb1146cd3b1a10c1af1a9b6a67d301ee.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>446</xmin>
+			<xmax>514</xmax>
+			<ymin>416</ymin>
+			<ymax>502</ymax>
+		</bndbox>
+	</object>
+</annotation>

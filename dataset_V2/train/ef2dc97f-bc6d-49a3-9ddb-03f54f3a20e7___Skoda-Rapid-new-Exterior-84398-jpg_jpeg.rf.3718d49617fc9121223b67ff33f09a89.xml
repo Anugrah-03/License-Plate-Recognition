@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>ef2dc97f-bc6d-49a3-9ddb-03f54f3a20e7___Skoda-Rapid-new-Exterior-84398-jpg_jpeg.rf.3718d49617fc9121223b67ff33f09a89.jpg</filename>
+	<path>ef2dc97f-bc6d-49a3-9ddb-03f54f3a20e7___Skoda-Rapid-new-Exterior-84398-jpg_jpeg.rf.3718d49617fc9121223b67ff33f09a89.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>258</xmin>
+			<xmax>414</xmax>
+			<ymin>416</ymin>
+			<ymax>476</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>175ff546-0679-4cbb-ab03-acfcd96877b7___Maruti_Wagon_R_Rear-jpg_jpeg.rf.77c088a73cace07ae7b2dab1d5f151e0.jpg</filename>
+	<path>175ff546-0679-4cbb-ab03-acfcd96877b7___Maruti_Wagon_R_Rear-jpg_jpeg.rf.77c088a73cace07ae7b2dab1d5f151e0.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>211</xmin>
+			<xmax>397</xmax>
+			<ymin>395</ymin>
+			<ymax>462</ymax>
+		</bndbox>
+	</object>
+</annotation>

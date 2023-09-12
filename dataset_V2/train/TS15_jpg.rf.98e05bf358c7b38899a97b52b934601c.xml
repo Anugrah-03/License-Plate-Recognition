@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>TS15_jpg.rf.98e05bf358c7b38899a97b52b934601c.jpg</filename>
+	<path>TS15_jpg.rf.98e05bf358c7b38899a97b52b934601c.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>179</xmin>
+			<xmax>362</xmax>
+			<ymin>545</ymin>
+			<ymax>614</ymax>
+		</bndbox>
+	</object>
+</annotation>

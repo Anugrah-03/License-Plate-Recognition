@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>5c85a40f-ce81-44b4-82b2-dfdac281217d___new_Skoda-Octavia-1-8-TSI-5-jpg_jpeg.rf.708b104874064fd6eda9fa868f38dbcb.jpg</filename>
+	<path>5c85a40f-ce81-44b4-82b2-dfdac281217d___new_Skoda-Octavia-1-8-TSI-5-jpg_jpeg.rf.708b104874064fd6eda9fa868f38dbcb.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>222</xmin>
+			<xmax>397</xmax>
+			<ymin>378</ymin>
+			<ymax>456</ymax>
+		</bndbox>
+	</object>
+</annotation>

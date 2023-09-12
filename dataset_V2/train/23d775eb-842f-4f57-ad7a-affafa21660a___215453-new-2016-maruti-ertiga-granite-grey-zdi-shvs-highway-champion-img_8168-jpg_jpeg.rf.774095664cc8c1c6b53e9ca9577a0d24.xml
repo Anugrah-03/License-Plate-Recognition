@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>23d775eb-842f-4f57-ad7a-affafa21660a___215453-new-2016-maruti-ertiga-granite-grey-zdi-shvs-highway-champion-img_8168-jpg_jpeg.rf.774095664cc8c1c6b53e9ca9577a0d24.jpg</filename>
+	<path>23d775eb-842f-4f57-ad7a-affafa21660a___215453-new-2016-maruti-ertiga-granite-grey-zdi-shvs-highway-champion-img_8168-jpg_jpeg.rf.774095664cc8c1c6b53e9ca9577a0d24.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>107</xmin>
+			<xmax>348</xmax>
+			<ymin>295</ymin>
+			<ymax>429</ymax>
+		</bndbox>
+	</object>
+</annotation>

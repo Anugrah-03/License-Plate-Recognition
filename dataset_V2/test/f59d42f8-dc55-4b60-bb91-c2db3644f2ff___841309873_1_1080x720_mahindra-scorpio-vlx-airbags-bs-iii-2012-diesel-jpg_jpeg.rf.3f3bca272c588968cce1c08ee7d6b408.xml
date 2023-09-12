@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>f59d42f8-dc55-4b60-bb91-c2db3644f2ff___841309873_1_1080x720_mahindra-scorpio-vlx-airbags-bs-iii-2012-diesel-jpg_jpeg.rf.3f3bca272c588968cce1c08ee7d6b408.jpg</filename>
+	<path>f59d42f8-dc55-4b60-bb91-c2db3644f2ff___841309873_1_1080x720_mahindra-scorpio-vlx-airbags-bs-iii-2012-diesel-jpg_jpeg.rf.3f3bca272c588968cce1c08ee7d6b408.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>258</xmin>
+			<xmax>395</xmax>
+			<ymin>351</ymin>
+			<ymax>393</ymax>
+		</bndbox>
+	</object>
+</annotation>

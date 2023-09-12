@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>TS4_jpg.rf.ad966b15beb69d469cecda7afcb32dfc.jpg</filename>
+	<path>TS4_jpg.rf.ad966b15beb69d469cecda7afcb32dfc.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>246</xmin>
+			<xmax>407</xmax>
+			<ymin>355</ymin>
+			<ymax>412</ymax>
+		</bndbox>
+	</object>
+</annotation>

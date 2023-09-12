@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>TN8_jpg.rf.ada8ad3221f3c95b6f9d096f0cc1a6fd.jpg</filename>
+	<path>TN8_jpg.rf.ada8ad3221f3c95b6f9d096f0cc1a6fd.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>204</xmin>
+			<xmax>403</xmax>
+			<ymin>194</ymin>
+			<ymax>258</ymax>
+		</bndbox>
+	</object>
+</annotation>

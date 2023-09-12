@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>UP29_jpg.rf.f699c85693e54ce7c70fd2627d6f2176.jpg</filename>
+	<path>UP29_jpg.rf.f699c85693e54ce7c70fd2627d6f2176.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>186</xmin>
+			<xmax>392</xmax>
+			<ymin>326</ymin>
+			<ymax>352</ymax>
+		</bndbox>
+	</object>
+</annotation>

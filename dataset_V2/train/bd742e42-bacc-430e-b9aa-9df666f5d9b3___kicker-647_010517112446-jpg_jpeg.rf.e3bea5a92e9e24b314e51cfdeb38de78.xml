@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>bd742e42-bacc-430e-b9aa-9df666f5d9b3___kicker-647_010517112446-jpg_jpeg.rf.e3bea5a92e9e24b314e51cfdeb38de78.jpg</filename>
+	<path>bd742e42-bacc-430e-b9aa-9df666f5d9b3___kicker-647_010517112446-jpg_jpeg.rf.e3bea5a92e9e24b314e51cfdeb38de78.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>204</xmin>
+			<xmax>303</xmax>
+			<ymin>345</ymin>
+			<ymax>405</ymax>
+		</bndbox>
+	</object>
+</annotation>
