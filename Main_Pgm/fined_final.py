@@ -47,9 +47,11 @@ def save_detected_boxes(directory, cropped_img):
 
 def perform_ocr(cropped_img, ocr):
     cropped_img_gray = cv2.cvtColor(cropped_img, cv2.COLOR_BGR2GRAY)
-    _, cropped_img_binary = cv2.threshold(cropped_img_gray, 128, 255, cv2.THRESH_BINARY_INV)
-    ocr_results = ocr.ocr(cropped_img_binary)
-    return ocr_results
+    #_, cropped_img_binary = cv2.threshold(cropped_img_gray, 128, 255, cv2.THRESH_BINARY_INV)
+    rectKern = cv2.getStructuringElement(cv2.MORPH_RECT, (13, 5))
+    blackhat = cv2.morphologyEx(cropped_img_gray, cv2.MORPH_BLACKHAT, rectKern)
+    ocr_results = ocr.ocr(blackhat)
+    return ocr_results, blackhat
 
 def get_next_filename(directory):
     absolute_directory = os.path.join(BASE_DIR, directory)
@@ -58,6 +60,14 @@ def get_next_filename(directory):
     count = len(os.listdir(absolute_directory))
     return os.path.join(absolute_directory, f"box_{count}.jpg")
 
+def resize_bbox(bbox, reduction_percentage=0.3):
+    x1, y1, x2, y2 = bbox
+    height = y2 - y1
+    dh = height * reduction_percentage
+    #y1 = int(y1 + dh)
+    y2 = int(y2 - dh)
+    return [x1, y1, x2, y2]
+
 def main():
     logging.getLogger("ppocr").setLevel(logging.ERROR)
 
@@ -65,6 +75,7 @@ def main():
     
     # Initialization
     model = YOLO(os.path.join(BASE_DIR, 'best_vehical.pt'))
+    #model = YOLO('models/best_2.pt')
     cap = initialize_video()
     tracker = DeepSort(max_age=20)
     ocr = PaddleOCR()
@@ -91,13 +102,15 @@ def main():
                 track_id = track.track_id
                 ltrb = track.to_ltrb()
                 bbox = [int(val) for val in ltrb]
-
+                #print(bbox)
+                bbox_resized = resize_bbox(bbox) 
+                
                 if track_id not in processed_tracks:
-                    cv2.rectangle(frame, (bbox[0], bbox[1]), (bbox[2], bbox[3]), GREEN, 2)
-                    cropped_img = frame[bbox[1]:bbox[3], bbox[0]:bbox[2]]
-                    _ = save_detected_boxes("detected_boxes", cropped_img)
-
-                    ocr_results = perform_ocr(cropped_img, ocr)
+                    cv2.rectangle(frame, (bbox_resized[0], bbox_resized[1]), (bbox_resized[2], bbox_resized[3]), GREEN, 2)
+                    #cropped_img = frame[bbox_resized[1]:bbox_resized[3], bbox_resized[0]:bbox_resized[2]] 
+                    cropped_img = frame[bbox[1]:bbox[3], bbox[0]:bbox[2]]  
+                    ocr_results, to_save = perform_ocr(cropped_img, ocr)
+                    _ = save_detected_boxes("detected_boxes", to_save)
                     for line in ocr_results:
                         if line and line[0]:
                             _, (text, _) = line[0]
