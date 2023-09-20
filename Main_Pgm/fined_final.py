@@ -14,7 +14,7 @@ CONFIDENCE_THRESHOLD = 0.5
 GREEN = (0, 255, 0)
 WHITE = (255, 255, 255)
 
-def initialize_video(video_path='sample_cut.mp4'):
+def initialize_video(video_path='sample2.mp4'):
     cap = cv2.VideoCapture(video_path)
     if not cap.isOpened():
         logging.error("Error opening video stream or file")
@@ -68,6 +68,9 @@ def resize_bbox(bbox, reduction_percentage=0.3):
     y2 = int(y2 - dh)
     return [x1, y1, x2, y2]
 
+def resize_cropped(cropped_img, scale_factor=1):
+    return cv2.resize(cropped_img, None, fx=scale_factor, fy=scale_factor)
+
 def main():
     logging.getLogger("ppocr").setLevel(logging.ERROR)
 
@@ -107,10 +110,12 @@ def main():
                 
                 if track_id not in processed_tracks:
                     cv2.rectangle(frame, (bbox_resized[0], bbox_resized[1]), (bbox_resized[2], bbox_resized[3]), GREEN, 2)
-                    #cropped_img = frame[bbox_resized[1]:bbox_resized[3], bbox_resized[0]:bbox_resized[2]] 
-                    cropped_img = frame[bbox[1]:bbox[3], bbox[0]:bbox[2]]  
-                    ocr_results, to_save = perform_ocr(cropped_img, ocr)
+                    cropped_img = frame[bbox_resized[1]:bbox_resized[3], bbox_resized[0]:bbox_resized[2]] 
+                    #cropped_img = frame[bbox[1]:bbox[3], bbox[0]:bbox[2]]  
+                    resized_img = resize_cropped(cropped_img)
+                    ocr_results, to_save = perform_ocr(resized_img, ocr)
                     _ = save_detected_boxes("detected_boxes", to_save)
+
                     for line in ocr_results:
                         if line and line[0]:
                             _, (text, _) = line[0]
