@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import os
 from paddleocr import PaddleOCR
 import csv
-from deep_sort import DeepSort
+from deep_sort_realtime.deepsort_tracker import DeepSort
 import logging
 # Suppress PaddleOCR logging
 logging.getLogger("ppocr").setLevel(logging.ERROR)
